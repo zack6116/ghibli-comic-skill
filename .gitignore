@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.DS_Store
+.env
+
+# 运行产物
+/cover-*.jpg
+/ghibli-*/
+*-raw.png
+#分镜表是每篇文章的产物，不入库
+/storyboard.json
+!**/examples/**
